@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salud pública</title>
+    <meta name="description" content="Página web de blog de café">
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Metodos<span class="logo__bold">DePurificación</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">¿Qué es la purificación?</a>
+                    <a href="cursos.html" class="navegacion__enlace">Métodos de purificación</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Métodos de purificación del agua</h2>
+            <p class="no-margin">Aprende tres distintos métodos de purificación</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Purificación del agua</h3>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy"  srcset="img/blog1.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog1.jpg" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Purificar el agua y sus beneficios</h4>
+                    <p>El agua se puede presentar en la naturaleza en estado puro, los mantos acuíferos por ejemplo son lugares donde el agua se ha filtrado de manera natural, además de no tener contacto con contaminantes externos. Lamentablemente, conseguir agua por estos medios es cada vez más complicado debido a la contaminación de los mantos acuíferos y otros cuerpos de agua. Para hacer que el agua que se bebe sea completamente segura y apta para el consumo humano se debe de purificar. El agua potable aún presenta contaminantes que deben ser eliminados antes de que sea consumida.
+</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy"  srcset="img/blog2.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog2.jpg" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">¿El agua de la lluvia es potable en la Ciudad de México?</h4>
+                    <p>Además de microorganismos, elementos como aluminio, plomo, zinc, mercurio, arsénico y níquel, entre otros, están presentes en la lluvia que cae en Ciudad de México, y que la hacen no apta para el consumo humano, reveló un estudio del Centro de Ciencias de la Atmósfera (CCA). En las grandes urbes como la nuestra, la industrialización y la alta densidad poblacional tienen efectos adversos en la química de las precipitaciones pluviales, que remueven de la atmósfera partículas y gases emitidos por fuentes naturales como la actividad volcánica, y antropogénicas, como emisiones vehiculares e industriales. Esos contaminantes son depositados en la superficie terrestre tras un aguacero, con un impacto negativo en la calidad de los suelos; no obstante, aclaró Rocío García Martínez, investigadora del Grupo Aerosoles Atmosféricos del CCA, “el problema no son las lluvias, sino las condiciones atmosféricas”.
+
+</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy"  srcset="img/blog3.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog3.jpg" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Científicos usan cactus para purificar el agua</h4>
+                    <p>La idea viene de antaño: el nopal se ha usado tradicionalmente en México para purificar el agua turbia. De hecho, fue la abuela mexicana de la ingeniera química Norma Alcantar, líder del proyecto, quién primero la introdujo a la costumbre popular. Al hervir el cactus, y luego añadir el agua resultante al agua turbia, se consigue “capturar” los distintos contaminantes en conjuntos cada vez mayores, o flóculos, que al aumentar de peso acaban sedimentando, haciendo que el agua pierda turbidez y sea bebible. El nopal es una planta originaria de México, pero se encuentra extendida por el mundo entero, formando parte de la economía agrícola en muchas zonas áridas del mundo. Este cactus no es tóxico, sus frutos son comestibles y en algunos lugares es considerado una delicatessen.
+
+</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Conoce los métodos de purificación de agua</h3>
+
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <h4 class="no-margin">Purificación de agua por sedimentación</h4>
+                    <p class="widget-curso__label">Sedimentación: 
+                        <span class="widget-curso__info">La sedimentación consiste en dejar el agua de un contenedor en reposo, para que los sólidos que posee se separen y se dirijan al fondo. La mayor parte de las técnicas de sedimentación se fundamentan en la acción de la gravedad. </span>
+                             </p>
+                    <p class="widget-curso__label">¿Cuándo se emplea?: 
+                        <span class="widget-curso__info">La sedimentación puede ser simple o secundaria. La sedimentación simple se emplea para eliminar los sólidos más pesados sin necesidad de otro tratamiento especial; mientras mayor sea el tiempo de reposo mayor será el asentamiento y consecuentemente la turbidez será menor, haciendo el agua más transparente.La sedimentación secundaria ocurre cuando se aplica un coagulante para producir el asiento de la materia sólida contenida en el agua. </span>
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario">Más información sobre la purificación de agua por sedimentación</a>
+                </li>
+
+                <li class="widget-curso">
+                    <h4 class="no-margin">Purificación de agua por filtración</h4>
+                    <p class="widget-curso__label">Filtración: 
+                        <span class="widget-curso__info">La filtración es el proceso de separar un sólido del líquido en el que está suspendido al hacerlos pasar a través de un medio poroso (filtro) que retiene al sólido y por el cual el líquido puede pasar fácilmente. </span>
+                    </p>
+                    <p class="widget-curso__label">¿Cuándo se emplea?: 
+                        <span class="widget-curso__info">Se emplea para obtener una mayor clarificación, generalmente se aplica después de la sedimentación para eliminar las sustancias que no salieron del agua durante su decantación. </span>
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario">Más Información sobre la purificación de agua por filtración</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Métodos<span class="logo__bold">DePurificación</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">¿Qué es la purificación?</a>
+                    <a href="cursos.html" class="navegacion__enlace">Métodos de purificación</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
